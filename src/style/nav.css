@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
+
+.nav-main{
+    display: flex;
+    padding-top: 1rem;
+    font-family: "DM Sans", serif;
+    justify-content: center;
+}
+.logo{
+    font-weight: bold;
+    font-size: 3rem;
+    color: white;
+    display: flex;
+    justify-content: start;
+}
+.list-style{
+    font-size: 1.5rem;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+}
+@media (max-width: 400px) {
+    .list-style{
+        width: 100%;
+    }
+}
